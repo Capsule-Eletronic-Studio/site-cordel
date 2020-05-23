@@ -1,2 +1,2 @@
 # CordelSiteJscript
- Site do Jogo feito em Js Bootstrap 
+ Site da Demo do jogo Cordeis feito em Javascript e Bootstrap 
