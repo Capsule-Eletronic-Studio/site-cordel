@@ -85,7 +85,8 @@ body
     
 
 /*footer */
-.footer-site{
+.footer-site
+{
     background-color:#000000;
     color: rgb(255, 255, 255);
     padding-top: 30px;
@@ -268,26 +269,27 @@ body
 
 @media (max-width: 800px) {
 
-    .footer-distributed .footer-center p{
+	.footer-distributed .footer-center p
+	{
         display: inline;
         color: #ffffff;
         vertical-align: middle;
         margin:0;
-        }
-
+	}
+	.footer-links{
+        display: none;
+	}
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	}
-
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
 	.footer-distributed .footer-right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 		text-align: center;
 	}
-
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
@@ -304,9 +306,15 @@ body
 	{
 		margin-top: 35px;
 	}
-	#txtsobre
+
+	.footer-left
 	{
-		text-size-adjust: 9px;
+		 margin-left: -1%;
+		 
+	}
+	.icon-caps
+	{
+		width: 40px !important;
 	}
 
 }
@@ -315,14 +323,16 @@ body
 
 @media (max-width:768px){
     .footer-center{
-        display: inline-block;
-    }
-    .icon-caps {
-        width: 20% !important;
+		display: inline-block;
+		
     }
     .footer-links{
         display: none;
-    }
+	}
+	.footer-left
+	{
+		margin-left: -1%;
+	}
     .container1
     {
 		width: 100%;
@@ -337,10 +347,7 @@ body
 		margin-top: 40px;
 	}
     
-    .icon-caps
-	{
-	 margin-right: 15px;
-	}
+
 
    
 }
@@ -350,11 +357,12 @@ body
 @media (max-width:500px){  
    
     
-    .footer-distributed .footer-center p{
-	display: inline;
-	color: #ffffff;
-	vertical-align: middle;
-	margin:0;
+	.footer-distributed .footer-center p
+	{
+		display: inline;
+		color: #ffffff;
+		vertical-align: middle;
+		margin:0;
     }
 
     .footer-site{
@@ -369,27 +377,27 @@ body
 	.footer-links{
         display: none;
 	}
+	#mare
+	{
+		 margin-top: 10px;
+	}
+	#txtsobre
+	{
+		 text-size-adjust: 9px;
+	}
+	.footer-left
+	{
+		 margin-left: -3%;
+		 
+	}
 	.icon-caps
 	{
-	 margin-right: 15px;
+		width: 40px !important;
 	}
-    .logo-motion{
-        display:flex ;
-        flex-wrap:wrap;
-        max-width:600px;
-     
-     }
-     .logo-motion > div{
-       margin:0 auto;
-	 }
-	 #mare
-	 {
-		 margin-top: 10px;
-	 }
-	 #txtsobre
-	 {
-		 text-size-adjust: 9px;
-	 }
-	
+	#txtsobre
+	{
+		text-size-adjust: 1px !important;
+	}
+
     
 } 
